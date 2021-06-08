@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  height: 10vh;
+  width: 100vw;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: rgb(34, 34, 34);
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: space-between;
+}
+
+.head {
+  color: white;
+  border-style: double;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-width: 10px;
+  border-color: red;
+}
+
+.container {
+  width: 100vw;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(61, 61, 61);
+  margin: 0%;
+}
+
+.searchInput {
+  background-color: rgb(34, 34, 34);
+  border-style: double;
+  border-color: red;
+  border-width: 3px;
+  padding: 5px;
+  color: white;
+  margin-right: 10px;
+}
+.searchInput::placeholder {
+  color: white;
+}
+
+/* Add Section Start */
+
+.addContainer {
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.addHead {
+  color: white;
+  border-style: double;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-width: 5px;
+  border-color: red;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.subDiv {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.addInput {
+  background-color: rgb(61, 61, 61);
+  border-style: double;
+  border-color: rgb(34, 34, 34);
+  border-width: 3px;
+  padding: 5px;
+  color: white;
+  margin-right: 10px;
+}
+
+.subBTN {
+  background-color: rgb(61, 61, 61);
+  border-style: double;
+  border-color: rgb(34, 34, 34);
+  border-width: 3px;
+  padding: 10px;
+  color: white;
+  transition: all 0.3s linear;
+}
+
+.subBTN:hover {
+  background-color: rgb(34, 34, 34);
+  border-color: rgb(61, 61, 61);
+  color: red;
+}
+
+/* Add Section End */
+
+/* Item Section Start */
+
+.listHead {
+  color: white;
+  border-style: double;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-width: 5px;
+  border-color: red;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.listContainer {
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.itemContainer {
+  display: flex;
+  width: 90vw;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item {
+  width: 40vw;
+  list-style: none;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-style: double;
+  background-color: rgb(34, 34, 34);
+  border-color: rgb(61, 61, 61);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.X {
+  border-style: double;
+  border-width: 3px;
+  padding: 5px;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: red;
+  border-color: rgb(61, 61, 61);
+  color: white;
+  transition: all 0.3s linear;
+}
+
+.X:hover {
+  border-color: rgb(34, 34, 34);
+  background-color: rgb(61, 61, 61);
+  color: red;
+  font-weight: 600;
+}
+
+/* Item Section End */

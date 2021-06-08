@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Function</title>
+    <link rel="stylesheet" href="./Styles.css" />
+  </head>
+  <body>
+    <div class="heading">
+      <h2 class="head">Item Lister</h2>
+      <input class="searchInput" type="text" placeholder="Search" />
+    </div>
+    <div class="container">
+      <div class="addContainer">
+        <h3 class="addHead">Add Item</h3>
+        <form id="subDiv" class="subDiv">
+          <input
+            id="addInput"
+            class="addInput"
+            type="text"
+            placeholder="Item"
+          />
+          <input type="submit" class="subBTN"></input>
+        </form>
+      </div>
+      <div class="listContainer">
+        <h3 class="listHead">Items</h3>
+        <ul id="itemList" class="itemContainer">
+          <li class="item">Item 1 <button class="X delete">X</button></li>
+          <li class="item">Item 2 <button class="X delete">X</button></li>
+          <li class="item">Item 3 <button class="X delete">X</button></li>
+          <li class="item">Item 4 <button class="X delete">X</button></li>
+        </ul>
+      </div>
+    </div>
+    <script src="./Scripts.js"></script>
+  </body>
+</html>
