@@ -4,9 +4,9 @@ let form = document.getElementById("subDiv");
 
 form.addEventListener("submit", additem);
 
-let items = document.getElementsByClassName("X");
+let items = document.querySelectorAll(".X");
 
-items.addEventListener("click", removeItem);
+items.forEach(addEventListener("click", removeItem));
 
 function additem(e) {
   e.preventDefault();
